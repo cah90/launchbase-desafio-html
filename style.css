@@ -19,12 +19,43 @@ header {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-header div a {
+.links a {
   text-decoration: none;
   margin: 0 30px;
   color: black;
 }
 
-header div a:hover {
+.links a:hover {
   color: brown;
+}
+
+#wrapper {
+  text-align: center;
+}
+
+#wrapper img {
+  width: 250px;
+  border-radius: 50%;
+  margin-top: 28px;
+}
+
+#wrapper h1 {
+  margin-top: 18px;
+}
+
+#wrapper p {
+  padding: 8px 0;
+}
+
+#wrapper ul {
+  padding: 18px;
+}
+
+#links-footer {
+  text-align: center;
+  margin-top: 18px;
+}
+
+#links-footer a {
+  border-bottom: 2px solid brown;
 }
